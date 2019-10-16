@@ -23,6 +23,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array
 }
 
+function removeElementFromBeginningOfArray(array) {
+  var slice = array.slice(1)
+  return array
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  var shift = array.shift()
+  return array
+}
+
 function accessElementInArray(array, index) {
   return array[index]
 }
