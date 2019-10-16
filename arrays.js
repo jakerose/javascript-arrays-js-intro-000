@@ -28,8 +28,13 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
+function removeElementFromEndOfArray(array) {
+  var slice = array.slice(1)
+  return array
+}
+
 function destructivelyRemoveElementFromEndOfArray(array) {
-  var shift = array.shift()
+  var shift = array.pop()
   return array
 }
 
